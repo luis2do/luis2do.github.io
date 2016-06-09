@@ -1,6 +1,7 @@
 body{
     margin: 0;
-    background: rgba(0,0,0,0.8);
+    background: url(../imagenes/thresh_teaser.jpg)
+     
 }
 h1,h2,h3,h4,h5,h6,figure,ul,li,a{
     margin: 0;
@@ -8,7 +9,8 @@ h1,h2,h3,h4,h5,h6,figure,ul,li,a{
 }
 .barra-navegacion{
     height: 35px;    
-        background: url(../imagenes/barra-navegacion.jpg)repeat 50% 0;
+    background: url(../imagenes/barra-navegacion.jpg)repeat 50% 0;
+    
 }
 .encabezado{
     padding: 0;
@@ -21,13 +23,17 @@ h1,h2,h3,h4,h5,h6,figure,ul,li,a{
     border-color: #0C2830;
     color: aliceblue;
     box-shadow: 0 0 10px grey;
-    
+    margin-bottom: 50px;
 }
 .encabezado a{
     padding: 5px;
     text-decoration: none;
     color: #cfba6b;
     font-size: 1.2em;
+}
+.encabezado a:hover{
+    color: #f7eecd;
+
 }
 .felipe{
     vertical-align: top;
@@ -55,4 +61,29 @@ h1,h2,h3,h4,h5,h6,figure,ul,li,a{
 }
 .twiter:hover{
     background: url('../imagenes/facebook_twitter.png') -43px -43px;
+}
+.contenido{
+    background: rgba(0,0,0,0.3);
+    border-radius: 50px;
+    border-color: #0C2830;
+    margin: 60px 186.5px;
+    margin-top: 50px;
+    width: 980px;
+    display: flex;
+    box-shadow: 0 0 10px grey;
+}
+.contenido img{
+    height: 250px;
+}
+.contenido p{
+    color: azure;
+    font-size: 1.2em;
+}
+.notas{
+    margin: auto;
+    width: 980px;
+    min-height: 300px;
+    border: 5px solid;
+    border-color: #0C2830;
+    box-shadow: 0 0 10px gray ;
 }
