@@ -1,6 +1,6 @@
 body{
     margin: 0;
-    background: url(../imagenes/giphy.gif);
+    background: url(../imagenes/fondo_aguas.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -67,8 +67,8 @@ h1,h2,h3,h4,h5,h6,figure,ul,li,a{
     background: rgba(0,0,0,0.3);
     border-radius: 50px;
     border-color: #0C2830;
-    margin: 60px 186.5px;
-    margin-top: 50px;
+    margin: auto;
+    margin-bottom: 20px;
     width: 980px;
     display: flex;
     box-shadow: 0 0 10px grey;
@@ -88,6 +88,7 @@ h1,h2,h3,h4,h5,h6,figure,ul,li,a{
     border: 3px solid;
     border-color: #0C2830;
     box-shadow: 0 0 10px gray ;
+    margin-bottom: 20px;
 }
 .notas p{
 padding-left: 5px;
@@ -101,4 +102,16 @@ padding-left: 5px;
 .notas img{
     border: 2px solid;
     border-color: #0C2830;
+    width: 450px;
+    height: 250px;
+}
+.pie-de-pagina {
+    padding: 0;
+    background-color: rgba(0,0,0,0.8);
+    color: aqua;
+    width: 980px;
+    height: 100px;
+    margin: auto;
+    border: 3px solid;
+    border-color: #0c2830;
 }
