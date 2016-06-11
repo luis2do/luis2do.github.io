@@ -1,8 +1,7 @@
 body{
     margin: 0;
     background: url(../imagenes/fondo_aguas.jpg);
-    background-size: cover;
-    background-position: center;
+   
 }
 h1,h2,h3,h4,h5,h6,figure,ul,li,a{
     margin: 0;
@@ -38,7 +37,7 @@ h1,h2,h3,h4,h5,h6,figure,ul,li,a{
 }
 .felipe{
     vertical-align: top;
-    height: 30    px;
+    height: 30spx;
     padding: 3px 5px;
     border-radius: 100px;
     
@@ -73,8 +72,21 @@ h1,h2,h3,h4,h5,h6,figure,ul,li,a{
     display: flex;
     box-shadow: 0 0 10px grey;
 }
-.contenido img{
+.poros{
+    width: 300px;
     height: 250px;
+    
+}
+.poros:hover{
+    background-image: url('../imagenes/poro_cafe.png');
+      width: 300px;
+    height: 250px;
+    margin: 0;
+    padding: 0;
+   
+}
+.contenido p:hover{
+    color: cyan;
 }
 .contenido p{
     color: azure;
