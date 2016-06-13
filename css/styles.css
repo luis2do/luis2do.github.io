@@ -110,8 +110,8 @@ h1,h2,h3,h4,h5,h6,figure,ul,li,a{
 .notas img{
     border: 2px solid;
     border-color: #0C2830;
-    width: 450px;
-    height: 250px;
+    width: 450px !important;
+    height: 250px !important;
 }
 .pie-de-pagina {
     padding: 0;
@@ -150,7 +150,6 @@ h1,h2,h3,h4,h5,h6,figure,ul,li,a{
     text-decoration: none;
     margin-top: 5px;
     padding-left: 13px;
-    margin: 0;
+    margin: auto;
     color: aliceblue;
-    
 }
